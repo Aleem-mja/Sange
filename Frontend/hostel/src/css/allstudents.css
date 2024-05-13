@@ -1,0 +1,48 @@
+/* Style for the container div */
+.all-students-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+  }
+  
+  /* Style for the heading */
+  .all-students-container h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  /* Style for individual student items */
+  .student-item {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .student-item p {
+    margin: 5px 0;
+  }
+  .centre{
+    margin:auto;
+    text-align: center;
+  }
+  
+  /* Style for the View button */
+  .student-item button {
+    width: 90%;
+    border: none;
+    font-size: 1rem;
+    margin: auto;
+    margin-top: 1.8rem;
+    padding: 10px 0;
+    border-radius: 20px;
+    outline: none;
+    color: #fff;
+    background: rgb(17, 67, 143);
+  }
+  
+  .student-item button:hover {
+    background-color: #0056b3;
+  }
+  
